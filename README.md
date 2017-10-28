@@ -6,12 +6,12 @@ You may run RetroPi and want to expand the use of its capabilities!
 
 ## Why not run on Raspbian?
 RetroPi runs emulationstation, a graphical frontend that is already controller compatible.
-Having the ability to navigate with a controller from boot to Moonlight streaming is convienient.
+Having the ability to navigate with a controller from boot to Moonlight streaming is straightforward and convienient.
 
 ## Awesome, how do I get started?
 Clone the project to your user folder, extract and run the command
-    sudo pyhton moonlight-wizard.pyhton
+    sudo python moonlight-wizard.py
 
 ## Are there any requirements?
-The python script is targeted at versions 3.2+ , which should already by installed and ready to go!
+The python used in this project is targeted at version 3.2+ , which should already by installed and ready to go!
 
