@@ -1,6 +1,8 @@
 
 import os
 import distutils.dir_util
+import shutil
+
 
 distutils.dir_util.mkpath('/home/pi/RetroPie/roms/moonlight')
 
@@ -23,5 +25,9 @@ distutils.dir_util.mkpath('/etc/emulationstation/themes/carbon/moonlight')
 distutils.dir_util.mkpath('/etc/emulationstation/themes/carbon/moonlight/art')
 
 # check that ./themes folder exists
+print(os.path.isdir("./themes")) # NOTE: Check that relative path works
+
 # cp ./themes/carbon/moonlight/theme.xml to /etc/emulationstation/themes/carbon/moonlight
+shutil.copy2("./themes/carbon/moonlight/theme.xml", "/etc/emulationstation/themes/carbon/moonlight/")
 # cp ./themes/carbon/moonlight/art/* to /etc/emulationstation/themes/carbon/moonlight/art/
+shutil.copy2("./themes/carbon/moonlight/art/*", "/etc/emulationstation/themes/carbon/moonlight/art/")
