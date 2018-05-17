@@ -1,3 +1,7 @@
+This repository is a WORK IN PROGRESS
+
+----
+
 # moonlight-wizard
 Automating the process of integrating Moonlight game streaming with RetroPi (emulationstation)
 
