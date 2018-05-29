@@ -3,7 +3,7 @@ import os
 import distutils.dir_util
 import shutil
 
-
+print(os.getenv('HOME', default_value))
 distutils.dir_util.mkpath('/home/pi/RetroPie/roms/moonlight')
 
 
