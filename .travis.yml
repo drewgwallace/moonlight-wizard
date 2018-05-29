@@ -3,4 +3,4 @@
     - "3.6"
   script:
 #  - pytest
-    - moonlight-wizard.py
+    - python moonlight-wizard.py
