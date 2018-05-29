@@ -31,3 +31,4 @@ print(os.path.isdir("./themes")) # NOTE: Check that relative path works
 shutil.copy2("./themes/carbon/moonlight/theme.xml", "/etc/emulationstation/themes/carbon/moonlight/")
 # cp ./themes/carbon/moonlight/art/* to /etc/emulationstation/themes/carbon/moonlight/art/
 shutil.copy2("./themes/carbon/moonlight/art/*", "/etc/emulationstation/themes/carbon/moonlight/art/")
+#Fix here
