@@ -4,7 +4,7 @@ import distutils.dir_util
 import shutil
 
 print(os.getenv('HOME', '/home/pi'))
-distutils.dir_util.mkpath('/home/pi/RetroPie/roms/moonlight')
+distutils.dir_util.mkpath('/home/travis/RetroPie/roms/moonlight')
 
 
 print("Configuring Moonlight as system")
