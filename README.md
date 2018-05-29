@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/drewgwallace/moonlight-wizard.svg?branch=master)](https://travis-ci.com/drewgwallace/moonlight-wizard)
 This repository is a WORK IN PROGRESS
 
 ----
